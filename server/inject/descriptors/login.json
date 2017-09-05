@@ -33,7 +33,6 @@
         "type": "none"
       },
       "selector": "body > div:nth-child(3) > font",
-      "selectContains": "Your account may be disabled or blocked or the username/password you entered is incorrect.",
       "control": "property.innerText"
     },
     "submit": {
