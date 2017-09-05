@@ -37,7 +37,7 @@
     },
     "submit": {
       "type": "action",
-      "selector": ".button[value=\"Login\"]",
+      "selector": ".button",
       "control": "action.button"
     },
     "isLogin": {
