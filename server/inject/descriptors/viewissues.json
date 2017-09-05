@@ -35,7 +35,10 @@
             "type": "string",
             "update": {
               "type": "none"
-            }
+            },
+            "selector": "td",
+            "selectIndex": 7,
+            "control": "property.innerText"
           },
           "assignedto": {
             "type": "string",
