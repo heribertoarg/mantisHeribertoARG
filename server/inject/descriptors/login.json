@@ -40,6 +40,12 @@
       "type": "action",
       "control": "action.button",
       "selector": ".button[value=\"Login\"]"
+    },
+    "isLogin": {
+      "type": "identifier",
+      "selector": ".form-title",
+      "control": "exists",
+      "selectContains": "login"
     }
   },
   "connect": [
