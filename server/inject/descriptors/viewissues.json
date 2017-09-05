@@ -59,7 +59,7 @@
       },
       "selectorAll": "#buglist tr[bgcolor]"
     },
-    "isviewissues": {
+    "isViewIssues": {
       "type": "identifier",
       "control": "property.innerText",
       "selector": ".floatleft",
