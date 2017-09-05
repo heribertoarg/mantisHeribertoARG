@@ -10,9 +10,7 @@
         "action": [
           "submit"
         ]
-      },
-      "selector": "[name=\"username\"]",
-      "control": "text"
+      }
     },
     "password": {
       "type": "string",
@@ -22,38 +20,26 @@
         "action": [
           "submit"
         ]
-      },
-      "selector": "[name=\"password\"]",
-      "control": "text"
+      }
     },
     "errorMessage": {
       "type": "string",
       "label": "errorMessage",
       "update": {
         "type": "none"
-      },
-      "selector": "font",
-      "selectContains": "Your account may be disabled or blocked or the username/password you entered is incorrect.",
-      "control": "property.innerText"
+      }
     },
     "submit": {
       "type": "action",
-      "control": "action.button",
-      "selector": ".button[value=\"Login\"]"
-    },
-    "isLogin": {
-      "type": "identifier",
-      "selector": ".form-title",
-      "control": "exists",
-      "selectContains": "login"
+      "parameters": {
+        "username": {
+          "type": "string"
+        },
+        "password": {
+          "type": "string"
+        }
+      }
     }
   },
-  "connect": [
-    {
-      "match": [],
-      "screens": [
-        "login"
-      ]
-    }
-  ]
+  "connect": []
 }
