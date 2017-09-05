@@ -35,14 +35,8 @@
     },
     "submit": {
       "type": "action",
-      "parameters": {
-        "username": {
-          "type": "string"
-        },
-        "password": {
-          "type": "string"
-        }
-      }
+      "selector": ".button",
+      "control": "action.button"
     }
   },
   "connect": []
