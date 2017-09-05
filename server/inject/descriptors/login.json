@@ -42,7 +42,7 @@
       "control": "action.button"
     },
     "isLogin": {
-      "type": "boolean",
+      "type": "identifier",
       "selector": ".form-title",
       "control": "exists",
       "selectContains": "Login"
