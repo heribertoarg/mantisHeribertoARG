@@ -7,7 +7,7 @@
     },
     "viewissueslink": {
       "type": "string",
-      "selector": "body",
+      "selector": "a[href]",
       "control": "property.innerText"
     }
   },
