@@ -61,7 +61,7 @@
     },
     "isViewIssues": {
       "type": "identifier",
-      "control": "property.innerText",
+      "control": "exists",
       "selector": ".floatleft",
       "selectContains": "Viewing Issues"
     }
