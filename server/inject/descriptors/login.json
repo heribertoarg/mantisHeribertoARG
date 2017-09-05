@@ -34,7 +34,7 @@
       },
       "selector": "font",
       "selectContains": "Your account may be disabled or blocked or the username/password you entered is incorrect.",
-      "control": "text"
+      "control": "property.innerText"
     },
     "submit": {
       "type": "action",
