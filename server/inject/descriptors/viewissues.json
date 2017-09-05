@@ -8,12 +8,11 @@
         "type": "object",
         "properties": {
           "id": {
-            "type": "object",
+            "type": "string",
             "update": {
               "type": "none"
             },
             "selector": "td",
-            "properties": {},
             "selectIndex": 3,
             "control": "property.innerText"
           },
