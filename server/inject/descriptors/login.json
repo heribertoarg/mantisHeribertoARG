@@ -42,5 +42,12 @@
       "selector": ".button[value=\"Login\"]"
     }
   },
-  "connect": []
+  "connect": [
+    {
+      "match": [],
+      "screens": [
+        "login"
+      ]
+    }
+  ]
 }
