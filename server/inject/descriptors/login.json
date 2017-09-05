@@ -35,8 +35,8 @@
     },
     "submit": {
       "type": "action",
-      "selector": ".button",
-      "control": "action.button"
+      "control": "action.button",
+      "selector": ".button"
     }
   },
   "connect": []
