@@ -44,7 +44,7 @@
     "isLogin": {
       "type": "boolean",
       "selector": ".form-title",
-      "control": "property.innerText",
+      "control": "exists",
       "selectContains": "Login"
     }
   },
