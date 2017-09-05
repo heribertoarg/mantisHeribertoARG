@@ -62,7 +62,7 @@
     "isViewIssues": {
       "type": "identifier",
       "control": "exists",
-      "selector": ".floatleft",
+      "selector": ".form-title",
       "selectContains": "Viewing Issues"
     }
   },
