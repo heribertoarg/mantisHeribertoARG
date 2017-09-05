@@ -36,7 +36,7 @@
     "submit": {
       "type": "action",
       "control": "action.button",
-      "selector": ".button"
+      "selector": ".button[value=\"Login\"]"
     }
   },
   "connect": []
