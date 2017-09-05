@@ -50,7 +50,7 @@
       "update": {
         "type": "none"
       },
-      "selectorAll": "#buglist tr[bgcolor"
+      "selectorAll": "#buglist tr[bgcolor]"
     }
   },
   "connect": []
