@@ -12,6 +12,12 @@
       "selector": "a[href]",
       "control": "action.link",
       "selectContains": "View Issues"
+    },
+    "isMyViewScreen": {
+      "type": "identifier",
+      "selector": ".subtle[href]",
+      "control": "contains",
+      "selectContains": "Assigned to Me (Unresolved)"
     }
   },
   "connect": [
