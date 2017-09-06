@@ -14,8 +14,8 @@
     },
     "summary": {
       "type": "string",
-      "selector": "[name=\"category_id\"]",
-      "control": "select"
+      "control": "text",
+      "selector": "[name=\"summary\"]"
     }
   },
   "connect": [
