@@ -6,6 +6,11 @@
       "selector": ".form-title",
       "control": "exists",
       "selectContains": "Enter Report Details"
+    },
+    "category": {
+      "type": "string",
+      "selector": "[name=\"category_id\"]",
+      "control": "select"
     }
   },
   "connect": [
