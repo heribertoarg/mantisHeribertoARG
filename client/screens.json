@@ -41,6 +41,12 @@
       "sourceScreenId": "app.tableviewadvanced.tableviewadvancedconfident",
       "sourceAppId": "universaltemplates",
       "model": "viewissues"
+    },
+    {
+      "id": "createreport",
+      "name": "createreport",
+      "sourceScreenId": "app.blank",
+      "sourceAppId": "_blank"
     }
   ],
   "sourceAppId": "_blank",
