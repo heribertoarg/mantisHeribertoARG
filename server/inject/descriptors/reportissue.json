@@ -8,5 +8,14 @@
       "selectContains": "Enter Report Details"
     }
   },
-  "connect": []
+  "connect": [
+    {
+      "match": [
+        "isCreateIssue"
+      ],
+      "screens": [
+        "createreport"
+      ]
+    }
+  ]
 }

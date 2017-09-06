@@ -142,5 +142,9 @@
         "type": "string"
       }
     }
+  },
+  "reportissue": {
+    "type": "object",
+    "properties": {}
   }
 }

@@ -47,7 +47,7 @@
       "name": "createreport",
       "sourceScreenId": "app.blank",
       "sourceAppId": "_blank",
-      "model": "createreport"
+      "model": "reportissue"
     }
   ],
   "sourceAppId": "_blank",
