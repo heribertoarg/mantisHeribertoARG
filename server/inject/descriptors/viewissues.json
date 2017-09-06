@@ -59,12 +59,6 @@
       },
       "selectorAll": "#buglist tr[bgcolor]"
     },
-    "isViewIssues": {
-      "type": "identifier",
-      "control": "exists",
-      "selector": ".form-title",
-      "selectContains": "Viewing Issues"
-    },
     "isViewIssuesScreen": {
       "type": "identifier",
       "selector": ".form-title",
