@@ -14,12 +14,7 @@
         <div data-comp-id="div.1">
             <div class="row" data-comp-id="row.1">
                 <div class="col" data-comp-id="column.1">
-                    <label class="item  item-input item-select-icon positive-icon"
-                        data-comp-id="selectInput.1">
-                        <span class="input-label">Select Label</span>
-                        <select ng-model="data.catergory.selected"
-                            ng-options="item as item.label for item in data.catergory.options"></select>
-                    </label>
+                    <select-list data-comp-id="selectList.1">Input Label</select-list>
                 </div>
             </div>
             <div class="row" data-comp-id="row.2">
@@ -47,6 +42,5 @@
                 </label>
             </div>
         </div>
-        <select-list data-comp-id="selectList.1">Input Label</select-list>
     </ion-content>
 </ion-view>
