@@ -25,6 +25,12 @@
         "isMyViewScreen"
       ],
       "action": "viewissueslink"
+    },
+    {
+      "match": [
+        "isMyViewScreen"
+      ],
+      "action": "reportissuelink"
     }
   ]
 }
