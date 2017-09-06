@@ -130,5 +130,20 @@
         }
       }
     }
+  },
+  "createreport": {
+    "type": "object",
+    "comment": "",
+    "properties": {
+      "catergory": {
+        "type": "select"
+      },
+      "summary": {
+        "type": "string"
+      },
+      "description": {
+        "type": "string"
+      }
+    }
   }
 }
