@@ -24,13 +24,13 @@
       "match": [
         "isMyViewScreen"
       ],
-      "action": "viewissueslink"
+      "action": "reportissuelink"
     },
     {
       "match": [
         "isMyViewScreen"
       ],
-      "action": "reportissuelink"
+      "action": "viewissueslink"
     }
   ]
 }
