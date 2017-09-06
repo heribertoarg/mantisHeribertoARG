@@ -15,7 +15,7 @@
     },
     "reportissuelink": {
       "type": "action",
-      "selector": "a´href*='bug_report_page']",
+      "selector": "a[href*='bug_report_page']",
       "control": "action.link"
     }
   },
