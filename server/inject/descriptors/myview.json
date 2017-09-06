@@ -9,9 +9,9 @@
     },
     "isMyViewScreen": {
       "type": "identifier",
-      "selector": ".subtle[href]",
       "control": "contains",
-      "selectContains": "Assigned to Me (Unresolved)"
+      "selectContains": "Assigned to Me (Unresolved)",
+      "selector": ".subtle"
     }
   },
   "connect": [
