@@ -148,6 +148,12 @@
     "properties": {
       "createissue": {
         "type": "action"
+      },
+      "summary": {
+        "type": "string"
+      },
+      "category": {
+        "type": "string"
       }
     }
   }
