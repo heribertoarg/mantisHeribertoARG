@@ -1,5 +1,12 @@
 {
   "type": "object",
-  "properties": {},
+  "properties": {
+    "isCreateIssue": {
+      "type": "identifier",
+      "selector": ".form-title",
+      "control": "property.innerText",
+      "selectContains": "Enter Report Details"
+    }
+  },
   "connect": []
 }
