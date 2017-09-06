@@ -12,6 +12,11 @@
       "control": "exists",
       "selectContains": "Assigned to Me (Unresolved)",
       "selector": ".subtle"
+    },
+    "reportissuelink": {
+      "type": "action",
+      "selector": "a´href*='bug_report_page']",
+      "control": "action.link"
     }
   },
   "connect": [
