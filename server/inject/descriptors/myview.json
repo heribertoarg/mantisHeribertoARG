@@ -1,12 +1,6 @@
 {
   "type": "object",
   "properties": {
-    "isMyView": {
-      "type": "identifier",
-      "control": "exists",
-      "selector": ".subtle[href]",
-      "selectContains": "Assigned to Me (Unresolved)"
-    },
     "viewissueslink": {
       "type": "action",
       "selector": "a[href]",

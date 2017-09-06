@@ -64,6 +64,12 @@
       "control": "exists",
       "selector": ".form-title",
       "selectContains": "Viewing Issues"
+    },
+    "isViewIssuesScreen": {
+      "type": "identifier",
+      "selector": ".form-title",
+      "control": "exists",
+      "selectContains": "Viewing Issues"
     }
   },
   "connect": [
