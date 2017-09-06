@@ -9,7 +9,7 @@
     },
     "isMyViewScreen": {
       "type": "identifier",
-      "control": "contains",
+      "control": "exists",
       "selectContains": "Assigned to Me (Unresolved)",
       "selector": ".subtle"
     }
