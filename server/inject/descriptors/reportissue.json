@@ -11,6 +11,11 @@
       "type": "string",
       "selector": "[name=\"category_id\"]",
       "control": "select"
+    },
+    "summary": {
+      "type": "string",
+      "selector": "[name=\"category_id\"]",
+      "control": "select"
     }
   },
   "connect": [
