@@ -17,7 +17,8 @@
   "connect": [
     {
       "match": [
-        "isMyView"
+        "isMyView",
+        "isMyViewScreen"
       ],
       "action": "viewissueslink"
     }
