@@ -153,10 +153,7 @@
         "type": "string"
       },
       "category": {
-        "type": "select",
-        "update": {
-          "type": "none"
-        }
+        "type": "select"
       }
     }
   }
