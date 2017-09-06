@@ -1,6 +1,13 @@
 {
   "type": "object",
-  "properties": {},
+  "properties": {
+    "isCreateScreen": {
+      "type": "identifier",
+      "selector": ".form-title",
+      "control": "exists",
+      "selectContains": "Enter Report Details"
+    }
+  },
   "connect": [
     {
       "match": [
