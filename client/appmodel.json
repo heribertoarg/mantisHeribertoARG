@@ -145,6 +145,10 @@
   },
   "reportissue": {
     "type": "object",
-    "properties": {}
+    "properties": {
+      "createissue": {
+        "type": "action"
+      }
+    }
   }
 }
